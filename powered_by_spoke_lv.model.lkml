@@ -8,6 +8,6 @@ label: "Extended Explore - LV"
 explore: order_items_lv {
   extends: [order_items]
   label: "(1) LV Order Items"
-  sql_always_where: ${products.brand} = 'Levis' ;;
+  sql_always_where: ${products.brand} = 'Levi''s' ;;
   from: order_items_lv
 }
